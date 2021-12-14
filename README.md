@@ -41,3 +41,30 @@
 참조: https://www.youtube.com/watch?v=3wRBJESwarQ&ab_channel=OnlineTutorials
 
 --------
+
+
+
+### 12/13 3D Glowing Cube
+
+<img src="README.assets/화면 캡처 2021-12-14 200639.jpg" alt="화면 캡처 2021-12-14 200639" style="zoom: 50%;" />
+
+
+
+- transform : 요소의 자식 요소가 입체적인 3D 공간에 배치 될지, 요소의 표면에 평평하게 묘사할 지를 결정합니다.
+- 애니메이션
+  - rotateX : 이것을 -30도로 정해서 아래로 깔아보듯이 나온다.
+  - <img src="README.assets/image-20211214202519477.png" alt="image-20211214202519477" style="zoom: 25%;" />  이경우는 -10 도인경우
+  - rotateY : 이거를 0도에서 90도로 놓음으로써 4초동안 옆으로 회전하는 에니메이션 생김
+
+- 벽면
+  - 벽면의 경우 rotateY를 0,90,180,270 도로 주고 translateZ 150px을 주어서 서로 띄움
+  -  translateZ 를 안하면
+  - <img src="README.assets/image-20211214202956443.png" alt="image-20211214202956443" style="zoom:33%;" />이렇게 됨
+
+
+
+> 어렵다... 공간감각이 살짝 필요한 기술
+
+참조: https://www.youtube.com/watch?v=nOdDtnHWaDo-
+
+---------------
